@@ -1,0 +1,41 @@
+body {
+  background-color: #f76902;
+  color: #ffffff;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 95vh;
+}
+#thinking {
+  max-height: 50vh;
+  max-width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#title {
+  font-family: "Comic Neue", cursive;
+  font-size: 6rem;
+  text-align: center;
+  padding-right: 15vw;
+  margin: 4vh;
+}
+#date {
+  font-family: "Comic Neue", cursive;
+  font-size: 4rem;
+  padding-left: 25vw;
+}
+@media screen and (max-width: 768px) {
+  #title {
+    font-size: 2.5rem;
+  }
+  #date {
+    font-size: 2.0rem;
+    padding-right: 10vw;
+  }
+}
